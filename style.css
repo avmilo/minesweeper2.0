@@ -1,0 +1,16 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 80px 10px;
+}
+    #footer {
+        text-align: center;
+        position: fixed;
+        height: 36px;
+        background-color: #BFBFBF;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+    }
+    
