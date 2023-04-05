@@ -1,3 +1,4 @@
+ img 
 #footer {
         text-align: center;
         position: fixed;
@@ -7,6 +8,8 @@
         left: 0px;
         right: 0px;
         margin-bottom: 0px;
+        float:right;
+        overflow:auto;
     }
     * {
         box-sizing: border-box;
@@ -54,3 +57,13 @@
           .board > [data-status="marked"] {
             background-color: #A9714B;
           } 
+          #timer, #bomb-counter {
+            font-family: 'Digital Dismay';
+            font-size: 35px;
+            letter-spacing: 1px;
+            color: red;
+            background-color: black;
+            text-align: center;
+            padding: 4px 4px 0 7px;
+            line-height: 1em;
+        }
